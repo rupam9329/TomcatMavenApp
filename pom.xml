@@ -58,13 +58,7 @@
                                     <configuration>
                                         <targetJdk>1.8</targetJdk>
                                         <aggregate>true</aggregate>
-                                        <format>xml</format>
-                                        <rulesets>
-                                            <ruleset>/pmd-rules.xml</ruleset>
-                                        </rulesets>
-                                        <!-- CPD options -->
-                                        <minimumTokens>20</minimumTokens>
-                                        <ignoreIdentifiers>true</ignoreIdentifiers>
+                                        <format>xml</format>                                    
                                     </configuration>
                                 </plugin>
                                 <plugin>
